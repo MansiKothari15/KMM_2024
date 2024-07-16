@@ -31,6 +31,8 @@ kotlin {
             implementation(compose.components.resources)
             implementation(compose.components.uiToolingPreview)
             implementation(projects.shared)
+            // Splash API
+            implementation ("androidx.core:core-splashscreen:1.0.1")
         }
     }
 }
