@@ -16,6 +16,12 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         installSplashScreen()
+        /*installSplashScreen().setKeepOnScreenCondition{
+            someCondition
+        }*/
+
+        /*installSplashScreen().setOnExitAnimationListener()*/
+
         setContent {
             Surface(
                 modifier = Modifier.fillMaxSize(),
